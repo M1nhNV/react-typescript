@@ -1,0 +1,11 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "outDir": "./public",
+    "target": "ES2018",
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "baseUrl": "."
+  }
+}
