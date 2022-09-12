@@ -1,11 +1,16 @@
 {
-  "include": ["src/**/*"],
+  "include": ["./src/**/*"],
   "compilerOptions": {
     "outDir": "./public",
+    "noImplicitAny": true,
+    "module": "ES6",
     "target": "ES2018",
+    "jsx": "react-jsx",
     "allowJs": true,
     "sourceMap": true,
     "strict": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
   }
 }
